@@ -1,0 +1,5 @@
+command -v apk
+/sbin/apk update
+/sbin/apk upgrade --no-self-upgrade --available --simulate
+/sbin/apk upgrade --no-self-upgrade --available
+/sbin/apk add build-base git
